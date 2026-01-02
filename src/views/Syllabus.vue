@@ -173,9 +173,8 @@ var items: Item[] = [
     "lecture": "Multimodal Graph Learning"
   },
   {
-    date: "Fri 04/17,
+    date: "Fri 04/17",
     "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EV0-6sybgmxCucgklnLq2b4Bfobs9FJde7W0DIFRn8B2gQ?e=mYGwyS",
   }
 ];
 

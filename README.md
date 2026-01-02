@@ -47,7 +47,7 @@ yarn lint
 
 # npm
 npm run lint
-
+ 
 # pnpm
 pnpm lint
 ```
