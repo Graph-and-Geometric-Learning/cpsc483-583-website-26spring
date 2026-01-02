@@ -1,0 +1,8 @@
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/views/Syllabus.vue"
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/views/OfficeHours.vue"
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/views/Policies.vue"
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/styles/settings.scss"
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/main.ts"
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/components/Navigation.vue"
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/App.vue"
+"/Users/qiuweikang/dev/cpsc483-583-website-24fall/src/router/index.ts"
