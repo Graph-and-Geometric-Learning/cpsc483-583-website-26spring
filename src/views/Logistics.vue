@@ -6,13 +6,13 @@
                     <h1>Welcom to CPSC 483/583!</h1>
                     <ul>
                         <li>Lectures are on Monday/Wednesday 16:00PM - 17:15PM EDT in <a
-                                href="https://cpsc.yale.edu/department-information/yale-computer-science-faq/computer-science-department-akw">Mason Laboratory 211
+                                href="https://cpsc.yale.edu/department-information/yale-computer-science-faq/computer-science-department-akw">Kline tower 205
                             </a>.
                         <ul>
                             <li>Most of the lecture will be in-person.</li>
-                            <li>There will be 2-3 guest lectures, some of which might be held remotely, including GNN library applications of graph learning.</li>
+                            <li>There will be 2-3 guest lectures, some of which might be held remotely.</li>
                         </ul></li>
-                        <li>This is a new course, and feedbacks are especially welcomed!
+                        <li>Feedbacks are especially welcomed!
                             <ul>
                                 <li>Many of the content comes from relatively recent research (>2017)</li>
                                 <li>Lecture style, homework, projects, ...</li>
@@ -46,6 +46,9 @@
                                             as knowledge about common libaries such as NumPy (<b>Vectorization</b>), Pandas, etc.</li>
                                         <li>Ideally you have used <b>PyTorch</b> (or equivalent) before. But learning it
                                             is not too hard if you have good knowledge in machine learning.</li>
+                                        <li>We also recommend familiarizing yourself with tools like <b href="https://github.com/Graph-and-Geometric-Learning/HyperCore">HyperCore</b> 
+                                        and <b href="https://github.com/Lightning-AI/pytorch-lightning">Pytorch Lightning</b>, as they are utilized in the coursework and assignments.
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -89,7 +92,7 @@
                     <h1>Communication</h1>
                     <h2>Ed Discussion</h2>
                     <ul>
-                        <li>Sign up <a href="https://edstem.org/us/courses/64495/discussion/">Ed Discussion</a> with your @yale.edu email.</li>
+                        <li>Sign up <a href="https://edstem.org/us/courses/91516/discussion">Ed Discussion</a> with your @yale.edu email.</li>
                         <li>Please participate and help each other, but
                             <ul>
                                 <li>Annotate your questions</li>
@@ -102,7 +105,7 @@
                     <h2>Mailing List</h2>
                     <ul>
                         <li>Teaching staff: <a
-                                href="mailto:cpsc483_24fall_staff@googlegroups.com">cpsc483_24fall_staff@googlegroups.com</a></li>
+                                href="mailto:cpsc483_26spring_staff@googlegroups.com">cpsc483_26spring_staff@googlegroups.com</a></li>
                     </ul>
 
                     <h2>Office Hours</h2>

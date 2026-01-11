@@ -80,100 +80,96 @@ enum EventType {
 
 var items: Item[] = [
   {
-    "date": "Wed 01/14",
+    "date": "Mon 01/12",
     "lecture": "Introduction",
     slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/EYJG3bz_K9NKlTVN4dUEDvwBvkR_Zr70aSTumbze55AdRA",
   },
   {
-    "date": "Fri 01/16",
+    "date": "Wed 01/14",
     "lecture": "Graph Learning Tasks",
   },
   {
+    "date": "Mon 01/19",
+    "lecture": "No classes (MLK Day)",
+  },
+  {
     "date": "Wed 01/21",
-    "lecture": "Deep Learning Background and GNN basics",
+    "lecture": "GNN basics",
   },
   {
-    "date": "Fri 01/23",
-    "lecture": "No classes",
-  },
-  {
-    "date": "Wed 01/28",
+    "date": "Fri 01/23", 
     "lecture": "GNN Implementations, Objectives and Loss Functions",
   },
   {
-    "date": "Fri 01/30",
+    "date": "Mon 01/26",
     "lecture": "Scalable GNN Architectures",
   },
   {
-    "date": "Wed 02/04",
+    "date": "Wed 01/28",
     "lecture": "Graph Attention Networks and Heterogeneous graphs",
   },
   {
-    "date": "Fri 02/06",
+    "date": "Mon 02/02",
     "lecture": "GNNs and Transformers",
   },
   {
-    "date": "Wed 02/11",
+    "date": "Wed 02/04",
     "lecture": "Theory of Graph Neural Networks",
   },
   {
-    "date": "Fri 02/13",
+    "date": "Mon 02/09",
     "lecture": "Guest Lecture 1",
   },
   {
-    date: "Wed 02/18",
+    "date": "Wed 02/11",
     "lecture": "GNN Expressive Power",
   },
   {
-    "date": "Fri 02/20",
+    "date": "Mon 02/16",
     "lecture": "GNN Expressive Power (2)",
   },
   {
-    "date": "Wed 02/25",
-    "lecture": "Graph Learning Tools"
+    "date": "Wed 02/18",
+    "lecture": "Graph Learning Tools - Hands-on Session",
   },
   {
-    "date": "Fri 02/27",
+    "date": "Mon 02/23",
     "lecture":  "Graph Transformers",
   },
   {
-    "date": "Wed 03/04",
-    "lecture": "Self-supervised Learning with GNNs",
+    "date": "Wed 02/25",
+    "lecture": "Graph Foundation Models",
   },
   {
-    "date": "Fri 03/06",
-    "lecture": "No classes",
+    "date": "Mon 03/02",
+    "lecture": "Guest Lecture 2",
+  },
+  {
+    "date": "Wed 03/04",
+    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs (1)",
   },
   {
     "date": "Wed 03/25",
-    "lecture": "Self-supervised Learning with GNNs (2)",
+    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs (2)",
   },
   {
-    "date": "Fri 03/27",
-    "lecture": "Hyperbolic Embeddings and Hyperbolic GNNs",
-  },
-  {
-    "date": "Wed 04/01",
-    "lecture": "Distributed Node Embeddings",
-  },
-  {
-    "date": "Fri 04/03",
+    "date": "Mon 03/30",
     "lecture": "Graph Generative Models",
   },
   {
-    "date": "Wed 04/08",
+    "date": "Wed 04/01",
     "lecture": "Knowledge Graph Embeddings",
   },
   {
-    "date": "Fri 04/10",
+    "date": "Mon 04/06",
     "lecture": "XAI for Graphs",
   },
   {
-    "date": "Wed 04/15",
-    "lecture": "Multimodal Graph Learning"
+    "date": "Wed 04/08",
+    "lecture": "Geometric Equivariant GNNs",
   },
   {
-    date: "Fri 04/17",
+    date: "Mon 04/13",
     "lecture": "Applications in Graphics, Neuroscience and Scientific Simulations",
   }
 ];
