@@ -133,6 +133,9 @@
                                     designing Graph Neural Networks.</li>
                                 Both platforms are very helpful for the course project (save your time & provide
                                 advanced GNN funcionalities)
+                                <li><a href="https://github.com/Graph-and-Geometric-Learning/HyperCore">HyperCore</a>: Libary that
+                                    assists hyperbolic foundation model implementation.</li>
+                                <li><a href="https://github.com/Lightning-AI/pytorch-lightning">Pytorch Lightning</a>: A PyTorch infrastructure for organizing model logic.</li>
                             </ul>
                         </li>
                         <li>Other network analytics tools:
@@ -141,7 +144,6 @@
                                 <li><a href="https://networkx.org/">NetworkX</a></li>
                                 <li><a href="https://graph-tool.skewed.de/">Graph-Tool</a></li>
                                 <li><a href="https://graphviz.org/">Graphvis</a></li>
-
                             </ul>
                         </li>
                     </ul>
