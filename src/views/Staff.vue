@@ -42,7 +42,7 @@ export default defineComponent({
         image_src: new URL("../assets/photos/huang_tinglin.png", import.meta.url)
           .href,
         role: "Head TA",
-        bio: "I am a fourth-year Ph.D. student at Computer Science Department. His research interests revolve around computational biology, time-series foundation model and large language models.",
+        bio: "I am a fourth-year Ph.D. student at Computer Science Department. My research interests revolve around computational biology, time-series foundation model and large language models.",
       },
       {
         name: "Hiren Madhu",
