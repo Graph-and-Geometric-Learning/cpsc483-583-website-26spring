@@ -63,7 +63,7 @@ export default defineComponent({
         image_src: new URL("../assets/photos/Harshit.jpeg", import.meta.url)
           .href,
         role: "TA",
-        bio: ""
+        bio: "I am a first year MSCS student in the two year track. My research interests include graph learning and time-series foundational models."
       }
     ],
   }),
