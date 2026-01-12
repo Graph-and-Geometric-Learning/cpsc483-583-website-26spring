@@ -87,39 +87,33 @@ function getRecurringEvents(day: number, name: string, loc: string, zoom_link: s
 // Rishabh: Tuesday Office Hour (time 4-5pm, location: Tsai Center for Innovative Thinking 1st floor in front of reception desk) 
 // David: Saturday Office Hour (time 1-2pm, location: Kline rm 211) 
 
-function getWeikangEvents() {
-    return getRecurringEvents(3, "Weikang", "Dunham 514", "", 12, 13)
+function getRexEvents() {
+    return getRecurringEvents(3, "Rex", "17HH,332", "", 13.5, 14.5)
 }
 
 
 function getTinglinEvents() {
-    return getRecurringEvents(5, "Tinglin", "Dunham 432", "", 13, 14)
+    return getRecurringEvents(5, "Tinglin", "Dunham 432", "", 14, 15)
 }
 
-function getChuhanEvents() {
-    return getRecurringEvents(1, "Chuhan", "HLH 3rd floor", "", 9, 10)
-}
-
-function getHerlockEvents() {
-    return getRecurringEvents(4, "Herlock", "HLH17 Room 233", "", 14.5, 16)
+function getHirenEvents() {
+    return getRecurringEvents(1, "Hiren", "Dunham 432", "", 16, 17)
 }
 
 function getRishabhEvents() {
-    return getRecurringEvents(2, "Rishabh", "Tsai Center for Innovative Thinking 1st floor in front of reception desk", "", 16, 17)
+    return getRecurringEvents(4, "Rishabh", "Dunham 432", "", 17, 18)
 }
 
-function getDavidEvents() {
-    return getRecurringEvents(6, "David", "Kline rm 211", "", 13, 14)
+function getHarshitEvents() {
+    return getRecurringEvents(2, "Harshit", "Dunham 432", "", 12, 13)
 }
-
 
 function getEvents() {
-    return getWeikangEvents()
+    return getRexEvents()
         .concat(getTinglinEvents())
-        .concat(getChuhanEvents())
-        .concat(getHerlockEvents())
+        .concat(getHirenEvents())
         .concat(getRishabhEvents())
-        .concat(getDavidEvents())
+        .concat(getHarshitEvents())
 }
 
 
