@@ -76,16 +76,8 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
 }
 
 function getRecurringEvents(day: number, name: string, loc: string, zoom_link: string, start_time: number, end_time: number) {
-    return getRecurringEventsStartEnd("2024-09-02", "2024-12-01", day, name, loc, zoom_link, start_time, end_time)
+    return getRecurringEventsStartEnd("2026-01-12", "2026-04-30", day, name, loc, zoom_link, start_time, end_time)
 }
-
-
-// Weikang: Wednesday (time 12-1 pm, location, Dunham 432) 
-// Tinglin: Friday Office Hour (time 1-2 pm, location: Dunham 432) 
-// Chuhan: Monday Office Hour (time 9-10 am and location HLH 3rd floor)  
-// Herlock: Thursdays Office Hour (Time 11:30-12:30 PM, location: Bass Library L34D) 
-// Rishabh: Tuesday Office Hour (time 4-5pm, location: Tsai Center for Innovative Thinking 1st floor in front of reception desk) 
-// David: Saturday Office Hour (time 1-2pm, location: Kline rm 211) 
 
 function getRexEvents() {
     return getRecurringEvents(3, "Rex", "17HH,332", "", 13.5, 14.5)
