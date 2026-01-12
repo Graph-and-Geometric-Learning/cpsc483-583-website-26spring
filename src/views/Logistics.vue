@@ -5,7 +5,7 @@
                 <v-sheet class="pa-8" elevation="6">
                     <h1>Welcom to CPSC 483/583!</h1>
                     <ul>
-                        <li>Lectures are on Monday/Wednesday 16:00PM - 17:15PM EDT in <a
+                        <li>Lectures are on Monday/Wednesday 2:30PM - 3:45PM EDT in <a
                                 href="https://cpsc.yale.edu/department-information/yale-computer-science-faq/computer-science-department-akw">Kline tower 205
                             </a>.
                         <ul>

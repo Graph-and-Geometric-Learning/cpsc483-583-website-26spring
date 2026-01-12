@@ -49,7 +49,7 @@ export default defineComponent({
         image_src: new URL("../assets/photos/hiren.jpeg", import.meta.url)
           .href,
         role: "TA",
-        bio: "I am a second year PhD student at Yale CS.",
+        bio: "I am a second-year Ph.D. student in Computer Science Department. My research interests revolve around computational biology, geometric deep learning, LLMs, and biological foundation models.",
       },
       {
         name: "Rishabh Anand",
