@@ -52,7 +52,7 @@
                         </li>
                         <li>How to submit?
                             <ul>
-                                <li><a href="https://yale.instructure.com/courses/98500">Canvas</a></li>
+                                <li><a href="https://yale.instructure.com/courses/114025">Canvas</a></li>
                                 <li>Both homework (including code) and project deliverables (pdf) must be uploaded</li>
                                 <li>We prefer <em>LaTeX</em> submissions</li>
                                 <li>If you really need to use hand-writing, make sure it's readable. TAs have no
