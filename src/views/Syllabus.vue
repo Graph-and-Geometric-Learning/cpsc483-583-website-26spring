@@ -82,7 +82,7 @@ var items: Item[] = [
   {
     "date": "Mon 01/12",
     "lecture": "Introduction",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/r/personal/rex_ying_yale_edu/Documents/teaching/CPSC483/2026%20spring/release/01-intro.pdf?csf=1&web=1&e=CEfVrX",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBU_0Zbj1NaSK2NI_M_2F2eAVMF-8xNw-AbOG_JgdMv8hI?e=oNeQhd",
   },
   {
     "date": "Wed 01/14",
