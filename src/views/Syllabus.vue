@@ -26,7 +26,7 @@
               <td>{{ item.reading }}</td>
               <td>
               <div v-if="item.hw">
-                {{ item.hw.name }} released <a :href="item.hw.pdf">[pdf]</a> <a :href="item.hw.zip">[zip]</a>
+                {{ item.hw.name }} released <a :href="item.hw.pdf">[pdf]</a> <a v-if="item.hw.zip" :href="item.hw.zip">[zip]</a>
               </div>
               <br v-if="item.colab" />
               <div v-if="item.colab">
@@ -53,7 +53,7 @@ import { defineComponent } from "vue";
 interface HW {
   name: string,
   pdf: string,
-  zip: string,
+  zip?: string,
 }
 
 interface Colab {
@@ -87,6 +87,10 @@ var items: Item[] = [
   {
     "date": "Wed 01/14",
     "lecture": "Graph Learning Tasks",
+    hw: {
+      name: "Written_HW1",
+      pdf: import.meta.env.BASE_URL + "homework/hw1_CPSC4830.pdf",
+    }
   },
   {
     "date": "Mon 01/19",
