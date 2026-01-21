@@ -87,6 +87,7 @@ var items: Item[] = [
   {
     "date": "Wed 01/14",
     "lecture": "Graph Learning Tasks",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQC5jStlHX6TRY6bLU88x6dCAa9nOigMrXWcozx101FOYeY",
     hw: {
       name: "Written_HW1",
       pdf: import.meta.env.BASE_URL + "homework/hw1_CPSC4830.pdf",
