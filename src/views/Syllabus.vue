@@ -15,7 +15,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for="item in items">
+            <tr v-for="item in items" :key = "item.date + item.lecture">
               <td>{{ item.date }}</td>
               <td>
                 {{ item.lecture }}
@@ -23,7 +23,19 @@
               </td>
               <td><a v-if="item.slide" :href="item.slide">[slides]</a></td>
               <td><a v-if="item.recording" :href="item.recording">[recording]</a></td>
-              <td>{{ item.reading }}</td>
+              <td class="py-2 overflow-visible" style="white-space: normal; height: auto;">
+                <div v-if="item.readings?.length" style="display:flex; flex-direction:column; gap:4px;">
+                  <a
+                    v-for="r in item.readings"
+                    :key="r.url"
+                    :href="r.url"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    {{ r.title }}
+                  </a>
+                </div>
+              </td>
               <td>
               <div v-if="item.hw">
                 {{ item.hw.name }} released <a :href="item.hw.pdf">[pdf]</a> <a v-if="item.hw.zip" :href="item.hw.zip">[zip]</a>
@@ -61,11 +73,16 @@ interface Colab {
   url: string,
 }
 
+interface Readings{
+  title: string,
+  url: string,
+}
+
 interface Item {
   date: string;
   lecture: string;
   slide?: string;
-  reading?: string;
+  readings?: Readings[];
   event?: string;
   deadline?: string;
   hw?: HW;
@@ -88,6 +105,16 @@ var items: Item[] = [
     "date": "Wed 01/14",
     "lecture": "Graph Learning Tasks",
     slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQC5jStlHX6TRY6bLU88x6dCAa9nOigMrXWcozx101FOYeY",
+    readings: [
+      {
+        title: "Graphlet-Decomposition",
+        url: "https://arxiv.org/abs/1506.04322"
+      },
+      {
+        title: "PageRank",
+        url: "https://patents.google.com/patent/US7058628B1/en"
+      }
+    ],
     hw: {
       name: "Written_HW1",
       pdf: import.meta.env.BASE_URL + "homework/hw1_CPSC4830.pdf",
