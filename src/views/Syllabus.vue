@@ -127,6 +127,7 @@ var items: Item[] = [
   {
     "date": "Wed 01/21",
     "lecture": "GNN basics",
+    slide : "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDr03ACHseaQLBsJNuKcdkZAWNqpIujYYj-VNO_VlxM47k?e=l1eKMN"
   },
   {
     "date": "Fri 01/23", 
