@@ -152,6 +152,7 @@ var items: Item[] = [
   {
     "date": "Mon 02/09",
     "lecture": "Guest Lecture 1",
+    deadline: "Written-HW1 Due",
   },
   {
     "date": "Wed 02/11",
