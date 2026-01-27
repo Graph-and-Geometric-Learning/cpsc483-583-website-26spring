@@ -104,7 +104,7 @@ var items: Item[] = [
   {
     "date": "Wed 01/14",
     "lecture": "Graph Learning Tasks",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQC5jStlHX6TRY6bLU88x6dCAa9nOigMrXWcozx101FOYeY",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQCiDNGR2Yq_TLONYEfm93ifAbpSucD7NPjiY3NEshulWpU?e=xuFhgD",
     readings: [
       {
         title: "Graphlet-Decomposition",
