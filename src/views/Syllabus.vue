@@ -127,7 +127,17 @@ var items: Item[] = [
   {
     "date": "Wed 01/21",
     "lecture": "GNN basics",
-    slide : "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDr03ACHseaQLBsJNuKcdkZAWNqpIujYYj-VNO_VlxM47k?e=l1eKMN"
+    slide : "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDr03ACHseaQLBsJNuKcdkZAWNqpIujYYj-VNO_VlxM47k?e=l1eKMN",
+    readings: [
+      {
+        title: "Representation Learning on Graphs",
+        url: "https://arxiv.org/pdf/1709.05584"
+      },
+      {
+        title: "GraphSAGE",
+        url: "https://arxiv.org/abs/1706.02216"
+      }
+    ],
   },
   {
     "date": "Fri 01/23", 
