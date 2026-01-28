@@ -142,6 +142,7 @@ var items: Item[] = [
   {
     "date": "Fri 01/23", 
     "lecture": "GNN Implementations, Objectives and Loss Functions",
+    slide : "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQB8_rk5nJXeRq8E906axcVpAVMwcH1BRTaWK2m20a05OfU?e=8p4Uck"
   },
   {
     "date": "Mon 01/26",
