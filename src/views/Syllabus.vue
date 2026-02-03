@@ -175,6 +175,16 @@ const items: Item[] = [
     lecture: "GNN Implementations, Objectives and Loss Functions",
     slide:
       "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQB8_rk5nJXeRq8E906axcVpAVMwcH1BRTaWK2m20a05OfU?e=8p4Uck",
+    readings: [
+      {
+        title: "Semi-Supervised Classification with GCNs",
+        url: "https://arxiv.org/abs/1609.02907",
+      },
+      {
+        title: "Principal Neighbourhood Aggregation for Graph Nets",
+        url: "https://arxiv.org/abs/2004.05718",
+      },
+    ],
     colab: {
       name: "Coding_HW1",
       url: "https://colab.research.google.com/drive/1Wdf8fJZHcmZcZvRx7M9UoCHmn9PknKjj?usp=sharing",
@@ -183,7 +193,17 @@ const items: Item[] = [
   {
     date: "Mon 01/26",
     lecture: "Scalable GNN Architectures",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQCCNlExondPRIv6RuS_-FkjAbhZqV6vi7NB9GlwS1OTqjY?e=AXc5TQ"
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQCCNlExondPRIv6RuS_-FkjAbhZqV6vi7NB9GlwS1OTqjY?e=AXc5TQ",
+    readings: [
+      {
+        title: "Design Space for Graph Neural Networks",
+        url: "https://arxiv.org/abs/2011.08843",
+      },
+      {
+        title: "OGB Datasets",
+        url: "https://ogb.stanford.edu/docs/nodeprop/",
+      },
+    ],
   },
   {
     date: "Wed 01/28",
