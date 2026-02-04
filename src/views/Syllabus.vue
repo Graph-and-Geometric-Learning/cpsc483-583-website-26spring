@@ -192,7 +192,7 @@ const items: Item[] = [
   },
   {
     date: "Mon 01/26",
-    lecture: "Scalable GNN Architectures",
+    lecture: "Training Graph Neural Networks",
     slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQCCNlExondPRIv6RuS_-FkjAbhZqV6vi7NB9GlwS1OTqjY?e=AXc5TQ",
     readings: [
       {
