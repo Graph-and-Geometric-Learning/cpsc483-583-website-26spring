@@ -221,7 +221,6 @@ const items: Item[] = [
   {
     date: "Mon 02/09",
     lecture: "Guest Lecture 1",
-    deadline: "Written-HW1 Due",
     hw: {
       name: "Project Proposal Rubric",
       pdf: import.meta.env.BASE_URL + "homework/Project Proposal - CPSC 4830.pdf",
@@ -230,6 +229,7 @@ const items: Item[] = [
   {
     date: "Wed 02/11",
     lecture: "GNN Expressive Power",
+    deadline: "Written-HW1 Due",
   },
   {
     date: "Mon 02/16",
