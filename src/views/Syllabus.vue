@@ -207,7 +207,8 @@ const items: Item[] = [
   },
   {
     date: "Wed 01/28",
-    lecture: "Graph Attention Networks and Heterogeneous graphs",
+    lecture: "Scaling up GNNs",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQB8VWs-IvAfTpfdHYk77hi_ASrRC3XrxmhzY-wFtTVoPYQ?e=szk5jS",
   },
   {
     date: "Mon 02/02",
