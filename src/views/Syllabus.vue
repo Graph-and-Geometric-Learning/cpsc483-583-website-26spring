@@ -209,10 +209,35 @@ const items: Item[] = [
     date: "Wed 01/28",
     lecture: "Scaling up GNNs",
     slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQB8VWs-IvAfTpfdHYk77hi_ASrRC3XrxmhzY-wFtTVoPYQ?e=szk5jS",
+    readings:[
+      {
+        title: "GNN Auto Scale",
+        url: "https://arxiv.org/abs/2106.05609",
+      },
+      {
+        title: "GraphSAINT",
+        url: "https://arxiv.org/abs/1907.04931",
+      },
+    ]
   },
   {
     date: "Mon 02/02",
     lecture: "GNNs and Transformers",
+    slide : "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQACAUemg5CMRLHl-2YF8PsqAX5h1ow0heoBI6WXRdGVrIs?e=oLcbFN",
+    readings: [
+      {
+        title: "Graph Spectral Theory",
+        url: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBsS_Qo4zQnTpw0ACx39hbrAYJ_Svl6cw2ttkDA9pPK1hs?e=hGk331",
+      },
+      {
+        title: "Graph Attention Networks",
+        url: "https://arxiv.org/abs/1710.10903",
+      },
+      {
+        title: "MultiHop Attention",
+         url: "https://arxiv.org/abs/2009.14332",
+      },
+    ],
   },
   {
     date: "Wed 02/04",
