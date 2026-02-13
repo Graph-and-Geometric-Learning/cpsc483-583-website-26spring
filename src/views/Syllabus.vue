@@ -254,6 +254,10 @@ const items: Item[] = [
   {
     date: "Wed 02/11",
     lecture: "GNN Expressive Power",
+    hw: {
+      name: "Written-HW2",
+      pdf: import.meta.env.BASE_URL + "homework/hw2_CPSC4830.pdf",
+    },
     deadline: "Written-HW1 Due",
   },
   {
@@ -276,6 +280,7 @@ const items: Item[] = [
   {
     date: "Mon 03/02",
     lecture: "Guest Lecture 2",
+    deadline: "Written-HW2 Due",
   },
   {
     date: "Wed 03/04",
