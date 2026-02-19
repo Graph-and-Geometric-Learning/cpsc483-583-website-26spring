@@ -241,11 +241,19 @@ const items: Item[] = [
   },
   {
     date: "Wed 02/04",
-    lecture: "Theory of Graph Neural Networks",
+    lecture: "Pytorch-Geometric",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBUXNxC4QN9TKDU6AfuQ_pjAZRN9VNkcixIqxeLziN56LI?e=08X8yb",
   },
   {
     date: "Mon 02/09",
-    lecture: "Guest Lecture 1",
+    lecture: "Theory and Expressive Power of GNNs (1)",
+    readings: [
+      {
+        title: "Graph Isomorphism Network",
+        url: "https://arxiv.org/pdf/1810.00826",
+      },
+    ],
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQD97dcSLBuTS6wJy0lDIWX_AVUi7TyEUMs2DK_nPq7pEJY?e=gqFog7",
     hw: {
       name: "Project Proposal Rubric",
       pdf: import.meta.env.BASE_URL + "homework/Project Proposal - CPSC 4830.pdf",
@@ -253,7 +261,13 @@ const items: Item[] = [
   },
   {
     date: "Wed 02/11",
-    lecture: "GNN Expressive Power",
+    lecture: "Theory and Expressive Power of GNNs (2)",
+    readings: [
+      {
+        title: "Weisfeiler and Lehman Go Neural: Higher-order Graph Neural Networks",
+        url: "https://arxiv.org/abs/1810.02244",
+      },
+    ],
     hw: {
       name: "Written-HW2",
       pdf: import.meta.env.BASE_URL + "homework/hw2_CPSC4830.pdf",
@@ -262,12 +276,17 @@ const items: Item[] = [
   },
   {
     date: "Mon 02/16",
-    lecture: "GNN Expressive Power (2)",
+    lecture: "",
     deadline: "Coding-HW1 Due",
   },
   {
     date: "Wed 02/18",
-    lecture: "Graph Learning Tools - Hands-on Session",
+    lecture: "",
+    colab: {
+      name: "Coding_HW2",
+      url: "https://colab.research.google.com/drive/1IsxfpYdBjqKwhYp4u3lfGP8og05fV_Yh?usp=sharing",
+    },
+
   },
   {
     date: "Mon 02/23",
@@ -285,6 +304,7 @@ const items: Item[] = [
   {
     date: "Wed 03/04",
     lecture: "Hyperbolic Embeddings and Hyperbolic GNNs (1)",
+    deadline: "Coding-HW2 Due",
   },
   {
     date: "Wed 03/25",
