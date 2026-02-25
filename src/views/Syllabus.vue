@@ -276,7 +276,18 @@ const items: Item[] = [
   },
   {
     date: "Mon 02/16",
-    lecture: "",
+    lecture: "Expressive GNNs",
+    readings: [
+      {
+        title: "Identity aware GNNs",
+        url: "https://arxiv.org/abs/2101.10320",
+      },
+      {
+        title: "Position-aware GNNs",
+        url: "https://arxiv.org/abs/1906.04817",
+      },
+    ],
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDrLrkQCGD9T77dPSD1xoIqAW2AElVa0w0I8MU7T3-j7Tk?e=p2erlX",
     deadline: "Coding-HW1 Due",
   },
   {
