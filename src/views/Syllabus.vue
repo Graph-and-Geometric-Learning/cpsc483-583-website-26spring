@@ -302,6 +302,17 @@ const items: Item[] = [
   {
     date: "Mon 02/23",
     lecture: "Graph Transformers",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBoeFTWzQ5mQrFvYEuSvA_HAQ9zBDOHC7P8uQ4XwUPXf5c?e=Xdxv4D",
+    readings:[
+      {
+        title: "Attention is All You Need",
+         url: "https://arxiv.org/abs/1706.03762",
+      },
+      {
+        title: "Graph Structure of Neural Networks",
+        url: "https://arxiv.org/abs/2007.06559",
+      },
+    ]
   },
   {
     date: "Wed 02/25",
