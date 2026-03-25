@@ -156,6 +156,10 @@ const items: Item[] = [
   },
   {
     date: "Wed 01/21",
+    lecture: "Graph Learning Tasks",
+  },
+  {
+    date: "Fri 01/23",
     lecture: "GNN basics",
     slide:
       "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDr03ACHseaQLBsJNuKcdkZAWNqpIujYYj-VNO_VlxM47k?e=l1eKMN",
@@ -171,7 +175,11 @@ const items: Item[] = [
     ],
   },
   {
-    date: "Fri 01/23",
+    date: "Mon 01/26",
+    lecture: "GNN basics",
+  },
+  {
+    date: "Wed 01/28",
     lecture: "GNN Implementations, Objectives and Loss Functions",
     slide:
       "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQB8_rk5nJXeRq8E906axcVpAVMwcH1BRTaWK2m20a05OfU?e=8p4Uck",
@@ -191,9 +199,10 @@ const items: Item[] = [
     },
   },
   {
-    date: "Mon 01/26",
+    date: "Mon 02/02",
     lecture: "Training Graph Neural Networks",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQCCNlExondPRIv6RuS_-FkjAbhZqV6vi7NB9GlwS1OTqjY?e=AXc5TQ",
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQCCNlExondPRIv6RuS_-FkjAbhZqV6vi7NB9GlwS1OTqjY?e=AXc5TQ",
     readings: [
       {
         title: "Design Space for Graph Neural Networks",
@@ -206,10 +215,15 @@ const items: Item[] = [
     ],
   },
   {
-    date: "Wed 01/28",
+    date: "Wed 02/04",
+    lecture: "Training Graph Neural Networks",
+  },
+  {
+    date: "Mon 02/09",
     lecture: "Scaling up GNNs",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQB8VWs-IvAfTpfdHYk77hi_ASrRC3XrxmhzY-wFtTVoPYQ?e=szk5jS",
-    readings:[
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQB8VWs-IvAfTpfdHYk77hi_ASrRC3XrxmhzY-wFtTVoPYQ?e=szk5jS",
+    readings: [
       {
         title: "GNN Auto Scale",
         url: "https://arxiv.org/abs/2106.05609",
@@ -218,12 +232,13 @@ const items: Item[] = [
         title: "GraphSAINT",
         url: "https://arxiv.org/abs/1907.04931",
       },
-    ]
+    ],
   },
   {
-    date: "Mon 02/02",
+    date: "Wed 02/11",
     lecture: "GNNs and Transformers",
-    slide : "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQACAUemg5CMRLHl-2YF8PsqAX5h1ow0heoBI6WXRdGVrIs?e=oLcbFN",
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQACAUemg5CMRLHl-2YF8PsqAX5h1ow0heoBI6WXRdGVrIs?e=oLcbFN",
     readings: [
       {
         title: "Graph Spectral Theory",
@@ -235,37 +250,7 @@ const items: Item[] = [
       },
       {
         title: "MultiHop Attention",
-         url: "https://arxiv.org/abs/2009.14332",
-      },
-    ],
-  },
-  {
-    date: "Wed 02/04",
-    lecture: "Pytorch-Geometric",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBUXNxC4QN9TKDU6AfuQ_pjAZRN9VNkcixIqxeLziN56LI?e=08X8yb",
-  },
-  {
-    date: "Mon 02/09",
-    lecture: "Theory and Expressive Power of GNNs (1)",
-    readings: [
-      {
-        title: "Graph Isomorphism Network",
-        url: "https://arxiv.org/pdf/1810.00826",
-      },
-    ],
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQD97dcSLBuTS6wJy0lDIWX_AVUi7TyEUMs2DK_nPq7pEJY?e=gqFog7",
-    hw: {
-      name: "Project Proposal Rubric",
-      pdf: import.meta.env.BASE_URL + "homework/Project Proposal - CPSC 4830.pdf",
-    },
-  },
-  {
-    date: "Wed 02/11",
-    lecture: "Theory and Expressive Power of GNNs (2)",
-    readings: [
-      {
-        title: "Weisfeiler and Lehman Go Neural: Higher-order Graph Neural Networks",
-        url: "https://arxiv.org/abs/1810.02244",
+        url: "https://arxiv.org/abs/2009.14332",
       },
     ],
     hw: {
@@ -276,6 +261,37 @@ const items: Item[] = [
   },
   {
     date: "Mon 02/16",
+    lecture: "GNNs and Transformers",
+    deadline: "Coding-HW1 Due",
+  },
+  {
+    date: "Wed 02/18",
+    lecture: "Pytorch-Geometric",
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBUXNxC4QN9TKDU6AfuQ_pjAZRN9VNkcixIqxeLziN56LI?e=08X8yb",
+    colab: {
+      name: "Coding_HW2",
+      url: "https://colab.research.google.com/drive/1IsxfpYdBjqKwhYp4u3lfGP8og05fV_Yh?usp=sharing",
+    },
+  },
+  {
+    date: "Mon 02/23",
+    lecture: "Theory and Expressive Power of GNNs",
+    readings: [
+      {
+        title: "Graph Isomorphism Network",
+        url: "https://arxiv.org/pdf/1810.00826",
+      },
+    ],
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQD97dcSLBuTS6wJy0lDIWX_AVUi7TyEUMs2DK_nPq7pEJY?e=gqFog7",
+    hw: {
+      name: "Project Proposal Rubric",
+      pdf: import.meta.env.BASE_URL + "homework/Project Proposal - CPSC 4830.pdf",
+    },
+  },
+  {
+    date: "Wed 02/25",
     lecture: "Expressive GNNs",
     readings: [
       {
@@ -287,50 +303,40 @@ const items: Item[] = [
         url: "https://arxiv.org/abs/1906.04817",
       },
     ],
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDrLrkQCGD9T77dPSD1xoIqAW2AElVa0w0I8MU7T3-j7Tk?e=p2erlX",
-    deadline: "Coding-HW1 Due",
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDrLrkQCGD9T77dPSD1xoIqAW2AElVa0w0I8MU7T3-j7Tk?e=p2erlX",
   },
   {
-    date: "Wed 02/18",
-    lecture: "",
-    colab: {
-      name: "Coding_HW2",
-      url: "https://colab.research.google.com/drive/1IsxfpYdBjqKwhYp4u3lfGP8og05fV_Yh?usp=sharing",
-    },
-
+    date: "Mon 03/02",
+    lecture: "Expressive GNNs",
+    deadline: "Written-HW2 Due",
   },
   {
-    date: "Mon 02/23",
+    date: "Wed 03/04",
+    lecture: "Expressive GNNs",
+    deadline: "Coding-HW2 Due",
+  },
+  {
+    date: "Mon 03/23",
     lecture: "Graph Transformers",
-    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBoeFTWzQ5mQrFvYEuSvA_HAQ9zBDOHC7P8uQ4XwUPXf5c?e=Xdxv4D",
-    readings:[
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBoeFTWzQ5mQrFvYEuSvA_HAQ9zBDOHC7P8uQ4XwUPXf5c?e=Xdxv4D",
+    readings: [
       {
         title: "Attention is All You Need",
-         url: "https://arxiv.org/abs/1706.03762",
+        url: "https://arxiv.org/abs/1706.03762",
       },
       {
         title: "Graph Structure of Neural Networks",
         url: "https://arxiv.org/abs/2007.06559",
       },
-    ]
-  },
-  {
-    date: "Wed 02/25",
-    lecture: "Graph Foundation Models",
-  },
-  {
-    date: "Mon 03/02",
-    lecture: "Guest Lecture 2",
-    deadline: "Written-HW2 Due",
-  },
-  {
-    date: "Wed 03/04",
-    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs (1)",
-    deadline: "Coding-HW2 Due",
+    ],
   },
   {
     date: "Wed 03/25",
-    lecture: "Hyperbolic Embeddings and Hyperbolic GNNs (2)",
+    lecture: "Graph Foundation Models",
+    slide:
+      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDmgP-yn8WJR6aCy8uVtAbEASc3gSu5dY7e7feS9s7Klvc?e=SRUszP",
   },
   {
     date: "Mon 03/30",
