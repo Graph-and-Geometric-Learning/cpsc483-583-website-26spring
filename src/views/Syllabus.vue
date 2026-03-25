@@ -319,8 +319,7 @@ const items: Item[] = [
   {
     date: "Mon 03/23",
     lecture: "Graph Transformers",
-    slide:
-      "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQBoeFTWzQ5mQrFvYEuSvA_HAQ9zBDOHC7P8uQ4XwUPXf5c?e=Xdxv4D",
+    slide: "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQAJS6lumLC0Q7sX8lJ4LGWAAehSvtyI6hqKBPlHfqBoTP4?e=NDaVZ1",
     readings: [
       {
         title: "Attention is All You Need",
