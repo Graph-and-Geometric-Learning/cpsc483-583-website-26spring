@@ -330,6 +330,10 @@ const items: Item[] = [
         url: "https://arxiv.org/abs/2007.06559",
       },
     ],
+    colab: {
+      name: "Colab-HW3",
+      url: "https://colab.research.google.com/drive/1t9bGWjhap_J49ASXW39shiOk7WzfnSMh",
+    },
   },
   {
     date: "Wed 03/25",
@@ -348,6 +352,7 @@ const items: Item[] = [
   {
     date: "Mon 04/06",
     lecture: "XAI for Graphs",
+    deadline: "Colab HW3 Due",
   },
   {
     date: "Wed 04/08",
