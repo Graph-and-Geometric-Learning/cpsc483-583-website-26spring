@@ -343,11 +343,12 @@ const items: Item[] = [
   },
   {
     date: "Mon 03/30",
-    lecture: "Graph Generative Models",
+    lecture: "Graph Foundation Models",
   },
   {
     date: "Wed 04/01",
-    lecture: "Knowledge Graph Embeddings",
+    lecture: "Hyperbolic GNNs",
+    slide:"https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDJS6OGqsZKQpe_9tIz09S0AePfyxqbKReA7NduxEkfL_A?e=FsaZDf"
   },
   {
     date: "Mon 04/06",
