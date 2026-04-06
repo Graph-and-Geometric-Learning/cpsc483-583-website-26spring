@@ -348,11 +348,22 @@ const items: Item[] = [
   {
     date: "Wed 04/01",
     lecture: "Hyperbolic GNNs",
-    slide:"https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDJS6OGqsZKQpe_9tIz09S0AePfyxqbKReA7NduxEkfL_A?e=FsaZDf"
+    slide:"https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDJS6OGqsZKQpe_9tIz09S0AePfyxqbKReA7NduxEkfL_A?e=FsaZDf",
+    readings: [
+      {
+        title: "HGCNs",
+        url: "https://proceedings.neurips.cc/paper/2019/file/0415740eaa4d9decbc8da001d3fd805f-Paper.pdf",
+      },
+      {
+        title: "Hyperbolic GNN Survey",
+        url: "https://arxiv.org/abs/2202.13852",
+      },
+    ],
   },
   {
     date: "Mon 04/06",
-    lecture: "XAI for Graphs",
+    lecture: "Geometric Deep Learning",
+    slide:"https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQC39DqI5H4NQq5C4MCqXHE9AeRVpSfxsI7ENMS8C6JF8ok?e=fXRBp5",
     deadline: "Colab HW3 Due",
   },
   {
