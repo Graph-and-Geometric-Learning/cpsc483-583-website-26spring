@@ -315,6 +315,10 @@ const items: Item[] = [
     date: "Wed 03/04",
     lecture: "Expressive GNNs",
     deadline: "Coding-HW2 Due",
+    hw: {
+      name: "Written HW3",
+      pdf: import.meta.env.BASE_URL + "homework/hw3.pdf",
+    },
   },
   {
     date: "Mon 03/23",
@@ -340,6 +344,7 @@ const items: Item[] = [
     lecture: "Graph Foundation Models",
     slide:
       "https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQDmgP-yn8WJR6aCy8uVtAbEASc3gSu5dY7e7feS9s7Klvc?e=SRUszP",
+    deadline: "Written HW3 due",
   },
   {
     date: "Mon 03/30",
