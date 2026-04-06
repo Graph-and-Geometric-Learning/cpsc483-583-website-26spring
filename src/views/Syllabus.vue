@@ -359,6 +359,10 @@ const items: Item[] = [
         url: "https://arxiv.org/abs/2202.13852",
       },
     ],
+    hw: {
+      name: "Written HW 4",
+      pdf: import.meta.env.BASE_URL + "homework/CPSC483_Written_HW4.pdf",
+    },
   },
   {
     date: "Mon 04/06",
@@ -373,6 +377,19 @@ const items: Item[] = [
   {
     date: "Mon 04/13",
     lecture: "Applications in Graphics, Neuroscience and Scientific Simulations",
+  },
+  {
+    date: "Tue 04/14",
+    lecture: "",
+    deadline: "Written HW4 Due",
+  },
+  {
+    date: "Mon 04/22",
+    lecture: "Final Exam",
+  },
+  {
+    date: "Wed 04/29",
+    lecture: "Project Report Due",
   },
 ];
 
