@@ -372,12 +372,16 @@ const items: Item[] = [
   {
     date: "Mon 04/06",
     lecture: "Geometric Deep Learning",
-    slide:"https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQC39DqI5H4NQq5C4MCqXHE9AeRVpSfxsI7ENMS8C6JF8ok?e=fXRBp5",
+    slide:"https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQA6GYVgW5SZR66ATpQQf1EPAfulKw7mcIxqSQl2zIoYLKA?e=A9scUn",
     deadline: "Colab HW3 Due",
+    colab: {
+      name: "Colab-HW4",
+      url: "https://colab.research.google.com/drive/1xEgJ80zaSdq3qcjpljFQQuZ5zYVcEcAw",
+    },
   },
   {
     date: "Wed 04/08",
-    lecture: "Geometric Equivariant GNNs",
+    lecture: "Geometric Deep Learning",
   },
   {
     date: "Mon 04/13",
@@ -385,8 +389,11 @@ const items: Item[] = [
   },
   {
     date: "Tue 04/14",
-    lecture: "",
-    deadline: "Written HW4 Due",
+    lecture: "Written HW4 Due",
+  },
+  {
+    date: "Tue 04/21",
+    lecture: "Colab HW4 Due",
   },
   {
     date: "Mon 04/22",
