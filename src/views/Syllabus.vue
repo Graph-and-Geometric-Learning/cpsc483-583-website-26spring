@@ -417,6 +417,10 @@ const items: Item[] = [
   {
     date: "Wed 04/29",
     lecture: "Project Report Due",
+    hw: {
+      name: "Project Report Rubric",
+      pdf: import.meta.env.BASE_URL + "homework/Final Project Report.pdf",
+    },
   },
 ];
 
