@@ -385,7 +385,22 @@ const items: Item[] = [
   },
   {
     date: "Mon 04/13",
-    lecture: "Applications in Graphics, Neuroscience and Scientific Simulations",
+    lecture: "Knowledge Graph Embeddings",
+    slide:"https://yaleedu-my.sharepoint.com/:b:/g/personal/rex_ying_yale_edu/IQCcrejLWaIUR7CmP9MogPOvAb_B8Vk-TrJqv5_l4TIPMeI?e=I4HqAU",
+    readings: [
+      {
+        title: "TransE",
+        url: "https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf",
+      },
+      {
+        title: "RotatE",
+        url: "https://arxiv.org/pdf/1902.10197",
+      },
+      {
+        title: "TuckER",
+        url: "https://arxiv.org/pdf/1901.09590",
+      },
+    ],
   },
   {
     date: "Tue 04/14",
