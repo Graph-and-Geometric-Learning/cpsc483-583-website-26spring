@@ -411,7 +411,7 @@ const items: Item[] = [
     lecture: "Colab HW4 Due",
   },
   {
-    date: "Mon 04/22",
+    date: "Wed 04/22",
     lecture: "Final Exam",
   },
   {
