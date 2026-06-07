@@ -206,20 +206,20 @@ Additionally, specify how tasks will be divided among team members (if applicabl
 <script setup>
 let projects = [
     {
-        name: "Tristan Brigham",
-        link: import.meta.env.BASE_URL + "reports/" + "brigham.pdf",
+        name: "Aiden Zhou",
+        link: import.meta.env.BASE_URL + "reports/" + "Aiden_Zhou.pdf",
     },
     {
-        name: "Andreas Varvarigos",
-        link: import.meta.env.BASE_URL + "reports/" + "varvarigos.pdf",
+        name: "Grant Shanklin",
+        link: import.meta.env.BASE_URL + "reports/" + "Grant_Shanklin.pdf",
     },
     {
-        name: "Ananya Krishna & Arjan kohli",
-        link: import.meta.env.BASE_URL + "reports/" + "arjan.pdf",
+        name: "Michael Wong",
+        link: import.meta.env.BASE_URL + "reports/" + "Michael_Wong.pdf",
     },
     {
-        name: "Lucas lee",
-        link: import.meta.env.BASE_URL + "reports/" + "lee.pdf",
+        name: "Yang (Jaxon) Zhang",
+        link: import.meta.env.BASE_URL + "reports/" + "Yang(Jaxon)_Zhang.pdf",
     },
 ]
 </script>
